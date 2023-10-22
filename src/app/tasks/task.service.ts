@@ -6,8 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class TaskService {
-  private apiBaseUrl = 'http://34.224.64.139/tasks';
-// this api is hosted on aws EC2 instance
+  private apiBaseUrl = 'http://127.0.0.1:5000/tasks';
   constructor(private http: HttpClient) {}
 
   getTasks(): Observable<any[]> {
