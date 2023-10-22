@@ -1,6 +1,6 @@
-# TaskManager
+# To-Do List
 ## Description
-Simple Task Management App built in angular with Flask API.
+Simple To-Do List App built in angular with Flask API.
 
 
 ## Development server
